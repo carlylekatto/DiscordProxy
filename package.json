@@ -1,0 +1,21 @@
+{
+  "name": "discord-proxy",
+  "version": "1.0.0",
+  "description": "A simple Discord proxy using Express and http-proxy-middleware",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc -w & node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/http-proxy-middleware": "^0.19.3",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "typescript": "^5.9.2"
+  }
+}
